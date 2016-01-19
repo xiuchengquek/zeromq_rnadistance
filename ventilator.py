@@ -31,7 +31,7 @@ class rnaDistVentilator(ventilator):
 
     def get_data_set(self, wd):
         data_set = os.listdir(wd)
-        data_set = { x.replace('rna_structures.tsv', '') : os.path.join(wd, x) for x in data_set if x.endswith('rna_structures.tsv')}
+        data_set = { x.replace('.rna_structures.tsv', '') : os.path.join(wd, x) for x in data_set if x.endswith('rna_structures.tsv')}
         return data_set
 
     def run_rna_distance(self, reference_structure, structure_files):
