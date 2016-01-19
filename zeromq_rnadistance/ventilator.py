@@ -20,11 +20,11 @@ class ventilator:
         sender.bind(sender_ip)
 
         # Get Sender
-        sink = context.socket(zmq.PUSH)
-        sink.connect(sink_ip)
+       # sink = context.socket(zmq.PUSH)
+       # sink.connect(sink_ip)
 
         self.sender = sender
-        self.sink = sink
+      #  self.sink = sink
 
 
     def run(self):

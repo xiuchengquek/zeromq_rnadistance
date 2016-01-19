@@ -50,17 +50,19 @@ class rnaDistVentilator(ventilator):
         data_set = self.get_data_set('data/completed/split_files/')
         reference_sequence = self.read_reference('data/reference/results_reference_structure_corrected.txt')
 
-
+        """
         self.sink.send_json({
             'sender': 'ventilator',
             'total_count': len(reference_sequence.keys())
         })
+        """
 
 
 
         assert set(data_set.keys()) == set(reference_sequence.keys())
 
         for key, values in reference_sequence.items():
+            print(key)
             data_package = { 'alignment_pair' : key,
               'ref' : values ,
               'structure_file' : data_set[key]

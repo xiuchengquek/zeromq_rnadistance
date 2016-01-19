@@ -18,19 +18,21 @@ sinker_ip = "tcp://*:5558"
 class rnaDistanceSink(sink):
 
     def run(self):
-        prg_bar = ProgressBar(widgets=[Percentage(), Bar(marker=RotatingMarker()), ETA()])
+        #prg_bar = ProgressBar(widgets=[Percentage(), Bar(marker=RotatingMarker()), ETA()])
         i = 0
         total = -1
         while True:
+            print(self.receiver.recv_json())
+            """
             msg = self.receiver.recv()
             if msg['sender'] == 'ventilator':
                 total = msg['total_count']
-                prg_bar.maxval = total
-                prg_bar = prg_bar.start()
+                #prg_bar.maxval = total
+                #prg_bar = prg_bar.start()
 
             else:
                 i += 1
-                prg_bar.update(i)
+                #prg_bar.update(i)
                 sys.stdout.write(msg['body'])
                 sys.stdout.flush()
 
@@ -39,8 +41,8 @@ class rnaDistanceSink(sink):
             if total == i :
                 break
 
-        prg_bar.close()
-
+        #prg_bar.close()
+"""
 
 
 

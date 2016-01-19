@@ -15,7 +15,6 @@ class sink:
         # Get reciever
         receiver = context.socket(zmq.PULL)
         receiver.bind(receiver_ip)
-        s = receiver.recv()
         self.receiver = receiver
 
     def run(self):

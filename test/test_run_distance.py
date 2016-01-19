@@ -23,5 +23,14 @@ class TestRunDistance(unittest.TestCase):
         print(results)
 
 
+    def testPexpect(self):
+        results = run_distance.run_distance_pexpect(self.reference, self.structures)
+        self.assertTrue(len(results), 5)
+        print(results)
+
+
+
+
+
 
 
