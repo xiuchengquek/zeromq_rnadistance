@@ -38,6 +38,7 @@ class rnaDistVentilator(ventilator):
         sys.stdout.write(reference_structure, structure_files)
         sys.stdout.flush()
 
+
     def run(self):
         print("Press Enter when the workers are ready: ")
         _ = input()
@@ -45,11 +46,13 @@ class rnaDistVentilator(ventilator):
         data_set = self.get_data_set('data/completed/split_files/')
         reference_sequence = self.read_reference('data/reference/results_reference_structure_corrected.txt')
 
-        ## check that all keys of reference_sequence are in data_set
-        print(set(data_set.keys())- set(reference_sequence.keys()))
-        sys.stdout.flush()
-        print(len(data_set.keys()))
-        print(len(reference_sequence.keys()))
+
+        self.sink.send_json({
+            'sender': 'ventilator',
+            'total_count': len(reference_sequence.keys())
+        })
+
+
 
         assert set(data_set.keys()) == set(reference_sequence.keys())
 
@@ -60,6 +63,7 @@ class rnaDistVentilator(ventilator):
               }
 
             self.sender.send_json(data_package)
+
 
 
 

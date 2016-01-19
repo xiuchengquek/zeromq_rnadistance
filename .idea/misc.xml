@@ -20,7 +20,7 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.3 virtualenv at ~/Projects/zeromq_rnadistance/venv" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.3 virtualenv at ~/zeromq_rnadistance/venv" project-jdk-type="Python SDK" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Projects/zeromq_rnadistance/venv/bin/python" />
     <property name="options.lastSelected" value="configurable.group.tools" />

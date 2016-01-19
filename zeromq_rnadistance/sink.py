@@ -4,6 +4,9 @@ import sys
 import time
 import zmq
 
+
+
+
 class sink:
     def __init__(self, receiver_ip):
         # Get context
@@ -11,7 +14,8 @@ class sink:
 
         # Get reciever
         receiver = context.socket(zmq.PULL)
-        receiver.connect(receiver_ip)
+        receiver.bind(receiver_ip)
+        s = receiver.recv()
         self.receiver = receiver
 
     def run(self):

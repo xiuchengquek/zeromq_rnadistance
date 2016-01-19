@@ -1,5 +1,6 @@
 
 
+from rna_distance import run_distance
 from zeromq_rnadistance.worker import taskWorker
 import sys
 
@@ -8,16 +9,21 @@ sender = 'tcp://localhost:5558'
 
 class rnaDistWorker(taskWorker):
     def run(self):
-        n = 1
         while True:
-            s = self.receiver.recv_json()
-            results = "this is %s" % s['ref']
-            n = n + 1
+            data = self.receiver.recv_json()
+            ref = "this is %s" % data['ref']
+            struct_file =  data['structure_file']
+            alignment_pair = data['alignment_pair']
+
+            structures = run_distance.read_structure_file(struct_file)
+            run_distance.run_distance(ref, structures)
+
             # Send results to sink
-            sys.stdout.write(results)
-            sys.stdout.write(str(n))
-            sys.stdout.flush()
-    
+            self.sender.send_json({
+                'sender' : 'worker',
+                'body' : "completed\t%s\n" % alignment_pair
+            }
+            )
 
 
 

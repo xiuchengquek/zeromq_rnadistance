@@ -30,32 +30,28 @@
           <file leaf-file-name="worker.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
-                  <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#2#50#0" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="-12.48" vertical-offset="0" max-vertical-offset="520">
+                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ventilator.py">
+          <file leaf-file-name="run_distance.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/rna_distance/run_distance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.17333333" vertical-offset="0" max-vertical-offset="1027">
-                  <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#30#82#0" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="-20.8" vertical-offset="0" max-vertical-offset="793">
+                  <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sink.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sink.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sink.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.72959185" vertical-offset="0" max-vertical-offset="806">
+                  <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
                   <folding>
                     <element signature="e#59#69#0" expanded="true" />
                   </folding>
@@ -76,8 +72,8 @@
           <file leaf-file-name="sink.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/sink.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-                  <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+                <state vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="442">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="e#29#39#0" expanded="true" />
                   </folding>
@@ -88,10 +84,13 @@
           <file leaf-file-name="worker.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/worker.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state vertical-scroll-proportion="-14.56" vertical-offset="0" max-vertical-offset="442">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding>
                     <element signature="e#29#39#0" expanded="true" />
+                    <marker date="1453170707000" expanded="true" signature="81:483" placeholder="..." />
+                    <marker date="1453170707000" expanded="true" signature="129:450" placeholder="..." />
+                    <marker date="1453170707000" expanded="true" signature="470:483" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -101,14 +100,49 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/ventilator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6362153" vertical-offset="0" max-vertical-offset="613">
-                  <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+                <state vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="598">
+                  <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
                   <folding>
                     <element signature="e#189#199#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_run_distance.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/test_run_distance.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+                  <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+                  <folding>
+                    <marker date="1453184464000" expanded="true" signature="30:83" placeholder="import ..." />
+                    <marker date="1453184464000" expanded="true" signature="129:1019" placeholder="..." />
+                    <marker date="1453184464000" expanded="true" signature="152:853" placeholder="..." />
+                    <marker date="1453184464000" expanded="true" signature="878:1019" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="91">
+                  <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ventilator.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.65565217" vertical-offset="286" max-vertical-offset="1105">
+                  <caret line="51" column="24" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="24" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -123,12 +157,15 @@
         <option value="$PROJECT_DIR$/zeromq_rnadistance/client.py" />
         <option value="$PROJECT_DIR$/zeromq_rnadistance/complete_sink.py" />
         <option value="$PROJECT_DIR$/test/test_zeromq_worker.py" />
-        <option value="$PROJECT_DIR$/sink.py" />
         <option value="$PROJECT_DIR$/zeromq_rnadistance/worker.py" />
-        <option value="$PROJECT_DIR$/zeromq_rnadistance/sink.py" />
-        <option value="$PROJECT_DIR$/worker.py" />
         <option value="$PROJECT_DIR$/zeromq_rnadistance/ventilator.py" />
+        <option value="$PROJECT_DIR$/test/test_run_distance.py" />
+        <option value="$PROJECT_DIR$/rna_distance/run_distance.py" />
+        <option value="$PROJECT_DIR$/zeromq_rnadistance/sink.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/ventilator.py" />
+        <option value="$PROJECT_DIR$/worker.py" />
+        <option value="$PROJECT_DIR$/sink.py" />
       </list>
     </option>
   </component>
@@ -174,10 +211,6 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.4.3 virtualenv at ~/Projects/zeromq_rnadistance/venv &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -210,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Projects/zeromq_rnadistance/venv/bin/python" />
-    <property name="options.lastSelected" value="configurable.group.tools" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -417,6 +450,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -486,50 +522,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/sink.py">
+    <entry file="file://$PROJECT_DIR$/test/test_run_distance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
-            <element signature="e#29#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sink.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#59#69#0" expanded="true" />
+            <marker date="1453184464000" expanded="true" signature="30:83" placeholder="import ..." />
+            <marker date="1453184464000" expanded="true" signature="129:1019" placeholder="..." />
+            <marker date="1453184464000" expanded="true" signature="152:853" placeholder="..." />
+            <marker date="1453184464000" expanded="true" signature="878:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/worker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.56" vertical-offset="0" max-vertical-offset="442">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#29#39#0" expanded="true" />
+            <marker date="1453170707000" expanded="true" signature="81:483" placeholder="..." />
+            <marker date="1453170707000" expanded="true" signature="129:450" placeholder="..." />
+            <marker date="1453170707000" expanded="true" signature="470:483" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#2#50#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="91">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/ventilator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6362153" vertical-offset="0" max-vertical-offset="613">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="598">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="e#189#199#0" expanded="true" />
           </folding>
@@ -538,10 +568,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ventilator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17333333" vertical-offset="0" max-vertical-offset="1027">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.65565217" vertical-offset="286" max-vertical-offset="1105">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.48" vertical-offset="0" max-vertical-offset="520">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rna_distance/run_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.8" vertical-offset="0" max-vertical-offset="793">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/sink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="442">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#30#82#0" expanded="true" />
+            <element signature="e#29#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72959185" vertical-offset="0" max-vertical-offset="806">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#59#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
