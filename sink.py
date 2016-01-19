@@ -44,6 +44,11 @@ class rnaDistanceSink(sink):
 
 
 
+if __name__ == '__main__' :
+    sinker = rnaDistanceSink(sinker_ip)
+    sinker.run()
+
+
 
 
 
