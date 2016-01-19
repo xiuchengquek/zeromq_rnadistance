@@ -53,7 +53,7 @@ class rnaDistVentilator(ventilator):
         reference_sequence = self.read_reference('data/reference/results_reference_structure_corrected.txt')
 
         ## check that all keys of reference_sequence are in data_set
-        sys.stdout.write(set(data_set.keys())- set(reference_sequence.keys()))
+        print(set(data_set.keys())- set(reference_sequence.keys()))
         sys.stdout.flush()
 
         assert set(data_set.keys()) == set(reference_sequence.keys())
