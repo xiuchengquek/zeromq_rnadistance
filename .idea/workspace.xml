@@ -42,8 +42,8 @@
           <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ventilator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.715" vertical-offset="0" max-vertical-offset="1118">
-                  <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.62833333" vertical-offset="130" max-vertical-offset="1027">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
                   <folding>
                     <element signature="e#30#82#0" expanded="true" />
                   </folding>
@@ -104,8 +104,8 @@
           <file leaf-file-name="ventilator.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/ventilator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40293637" vertical-offset="0" max-vertical-offset="613">
-                  <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.6362153" vertical-offset="0" max-vertical-offset="613">
+                  <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
                   <folding>
                     <element signature="e#189#199#0" expanded="true" />
                   </folding>
@@ -183,6 +183,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="zeromq_rnadistance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeromq_rnadistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeromq_rnadistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeromq_rnadistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zeromq_rnadistance" />
@@ -514,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ventilator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.715" vertical-offset="0" max-vertical-offset="1118">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.62833333" vertical-offset="130" max-vertical-offset="1027">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#30#82#0" expanded="true" />
           </folding>
@@ -524,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zeromq_rnadistance/ventilator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40293637" vertical-offset="0" max-vertical-offset="613">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.6362153" vertical-offset="0" max-vertical-offset="613">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="e#189#199#0" expanded="true" />
           </folding>

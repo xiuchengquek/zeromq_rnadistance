@@ -17,7 +17,7 @@ class ventilator:
 
         # Get reciever
         sender = context.socket(zmq.PUSH)
-        sender.connect(sender_ip)
+        sender.bind(sender_ip)
 
         # Get Sender
         sink = context.socket(zmq.PUSH)

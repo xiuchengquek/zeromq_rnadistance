@@ -38,13 +38,6 @@ class rnaDistVentilator(ventilator):
         sys.stdout.write(reference_structure, structure_files)
         sys.stdout.flush()
 
-
-
-
-
-
-
-
     def run(self):
         print("Press Enter when the workers are ready: ")
         _ = input()
