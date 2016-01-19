@@ -67,14 +67,9 @@ class rnaDistVentilator(ventilator):
 
 
 
-
-
-
-
-
-
-
-
+if __name__ == '__main__' :
+    rna_vent = rnaDistVentilator(reciever, sender)
+    rna_vent.run()
 
 
 
