@@ -18,6 +18,9 @@ class rnaDistWorker(taskWorker):
             structures = run_distance.read_structure_file(struct_file)
             run_distance.run_distance(ref, structures)
 
+
+
+
             # Send results to sink
             self.sender.send_json({
                 'sender' : 'worker',

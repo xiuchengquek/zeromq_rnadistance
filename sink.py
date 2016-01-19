@@ -20,7 +20,7 @@ class rnaDistanceSink(sink):
     def run(self):
         prg_bar = ProgressBar(widgets=[Percentage(), Bar(marker=RotatingMarker()), ETA()])
         i = 0
-        total = 0
+        total = -1
         while True:
             msg = self.receiver.recv()
             if msg['sender'] == 'ventilator':
