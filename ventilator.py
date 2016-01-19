@@ -48,6 +48,8 @@ class rnaDistVentilator(ventilator):
         ## check that all keys of reference_sequence are in data_set
         print(set(data_set.keys())- set(reference_sequence.keys()))
         sys.stdout.flush()
+        print(len(data_set.keys()))
+        print(len(reference_sequence.keys()))
 
         assert set(data_set.keys()) == set(reference_sequence.keys())
 
