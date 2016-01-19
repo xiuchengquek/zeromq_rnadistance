@@ -11,17 +11,17 @@ import time
 
 class ventilator:
 
-    def __init__(self, sender_ip, sink_id):
+    def __init__(self, sender_ip, sink_ip):
              # Get context
         context = zmq.Context()
 
         # Get reciever
         sender = context.socket(zmq.PUSH)
-        sender.connect(sink_id)
+        sender.connect(sender_ip)
 
         # Get Sender
         sink = context.socket(zmq.PUSH)
-        sink.connect(sink_id)
+        sink.connect(sink_ip)
 
         self.sender = sender
         self.sink = sink
