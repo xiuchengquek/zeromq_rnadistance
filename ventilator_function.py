@@ -10,7 +10,7 @@ import json
 import zmq
 
 
-reciever_id = 'tcp://*:5557'
+reciever_id = 'tcp://*:5559'
 sink_ip = 'tcp://localhost:5558'
 
 
@@ -46,7 +46,7 @@ if __name__ == '__main__' :
     sinker.connect(sink_ip)
 
 
-    data_set = get_data_set('data/completed/split_files/')
+    data_set = get_data_set('data/completed/split_files_2/')
     reference_sequence = read_reference('data/reference/results_reference_structure_corrected.txt')
     assert set(data_set.keys()) == set(reference_sequence.keys())
 
@@ -55,10 +55,10 @@ if __name__ == '__main__' :
         'body' : str(len(reference_sequence.keys()))
     })
 
-    print("Press Enter when the workers are ready: ")
-    _ = input()
+    #print("Press Enter when the workers are ready: ")
+    #_ = input()
 
-
+    
     for key, values in reference_sequence.items():
         print(key)
         data_package = { 'alignment_pair' : key,

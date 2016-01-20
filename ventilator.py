@@ -6,8 +6,10 @@ from zeromq_rnadistance.ventilator import ventilator
 import os
 import sys
 import json
-reciever = 'tcp://*:5557'
-sender = 'tcp://localhost:5558'
+
+
+reciever = 'tcp://192.168.11.203:5557'
+sender = 'tcp://192.168.11.203:5558'
 
 
 
