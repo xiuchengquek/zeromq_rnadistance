@@ -22,7 +22,7 @@ while True:
     sample_file = data['sample_file']
     structure_file = data['structure_file']
     out_dir = data['out_dir']
-    match_sample_to_structure((sample_file, structure_file, out_dir))
+    match_sample_to_structure.match_sample_to_structure(sample_file, structure_file, out_dir)
 
     sinker.send_json({
         'sender' : 'worker',

@@ -1,9 +1,5 @@
 __author__ = 'xiuchengquek'
-__author__ = 'xiuchengquek'
-__author__ = 'xiuchengquek'
 
-
-from zeromq_rnadistance.ventilator import ventilator
 
 import os
 import sys
