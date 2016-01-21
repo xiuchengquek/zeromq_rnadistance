@@ -45,7 +45,7 @@ if __name__ == '__main__' :
 
 
         data_package = { 'alignment_pair' : values,
-          'sample_file' : values ,
+          'sample_file' : sample_file ,
           'structure_file' : structure_score_file,
           'out_dir' : out_dir
            }

@@ -75,10 +75,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="worker_match_score.py" pinned="false" current-in-tab="true">
+              <file leaf-file-name="worker_match_score.py" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/worker_match_score.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.55825245" vertical-offset="134" max-vertical-offset="546">
+                    <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="546">
                       <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                       <folding>
                         <element signature="e#29#39#0" expanded="true" />
@@ -135,10 +135,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="match_sample_to_structure.py" pinned="false" current-in-tab="false">
+              <file leaf-file-name="match_sample_to_structure.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/rna_distance/match_sample_to_structure.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+                    <state vertical-scroll-proportion="0.72572815" vertical-offset="0" max-vertical-offset="754">
                       <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
                       <folding />
                     </state>
@@ -152,8 +152,8 @@
               <file leaf-file-name="ventilator_match_score.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/ventilator_match_score.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.54433495" vertical-offset="338" max-vertical-offset="845">
-                      <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+                    <state vertical-scroll-proportion="0.67980295" vertical-offset="413" max-vertical-offset="845">
+                      <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
                       <folding>
                         <element signature="e#30#39#0" expanded="true" />
                       </folding>
@@ -1009,17 +1009,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rna_distance/match_sample_to_structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker_match_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55825245" vertical-offset="134" max-vertical-offset="546">
+        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="546">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#29#39#0" expanded="true" />
@@ -1027,10 +1019,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rna_distance/match_sample_to_structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72572815" vertical-offset="0" max-vertical-offset="754">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ventilator_match_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54433495" vertical-offset="338" max-vertical-offset="845">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.67980295" vertical-offset="413" max-vertical-offset="845">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#30#39#0" expanded="true" />
           </folding>
