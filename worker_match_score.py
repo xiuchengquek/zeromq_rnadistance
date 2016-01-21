@@ -24,6 +24,9 @@ while True:
     out_dir = data['out_dir']
     match_sample_to_structure.match_sample_to_structure(sample_file, structure_file, out_dir)
 
+    sys.stdout.write('working on %s\n' % sample_file)
+    sys.stdout.flush()
+
     sinker.send_json({
         'sender' : 'worker',
         'body' : "%s\tcompleted" % structure_file
