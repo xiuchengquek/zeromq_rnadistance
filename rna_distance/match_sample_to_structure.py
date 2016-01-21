@@ -21,7 +21,7 @@ def match_sample_to_structure(sample_file, structure_file, out_dir):
     alignment_pair = alignment_pair.replace(' ', '\t')
 
     outfile = os.path.join(out_dir, sample_name)
-    fh_out = open(outfile, 'w')
+    fh_out = open(outfile, 'w+')
 
     with open(sample_file) as f:
         for line in f:
