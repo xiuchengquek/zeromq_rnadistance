@@ -39,7 +39,9 @@ if __name__ == '__main__' :
     })
 
     for values in sample_file_list:
-        structure_score_file = os.path.join(structure_dir, values)
+        structure_file_name = values.replace('.rna_structures.tsv', '.rnadist.results.txt')
+        structure_score_file = os.path.join(structure_dir, structure_file_name)
+
         sample_file = os.path.join(wd, values)
         assert os.path.exists(structure_score_file)
         assert os.path.exists(sample_file)

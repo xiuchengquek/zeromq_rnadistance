@@ -78,8 +78,8 @@
               <file leaf-file-name="worker_match_score.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/worker_match_score.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.59951454" vertical-offset="0" max-vertical-offset="507">
-                      <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507">
+                      <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
                       <folding>
                         <element signature="e#29#39#0" expanded="true" />
                       </folding>
@@ -90,7 +90,7 @@
               <file leaf-file-name="ventilator_match_score.py" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/ventilator_match_score.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
                       <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
                       <folding>
                         <element signature="e#86#138#0" expanded="true" />
@@ -152,8 +152,8 @@
               <file leaf-file-name="ventilator_match_score.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/ventilator_match_score.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.48029557" vertical-offset="65" max-vertical-offset="845">
-                      <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="51" />
+                    <state vertical-scroll-proportion="0.7758621" vertical-offset="231" max-vertical-offset="871">
+                      <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
                       <folding>
                         <element signature="e#86#138#0" expanded="true" />
                       </folding>
@@ -1005,8 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker_match_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59951454" vertical-offset="0" max-vertical-offset="507">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
           <folding>
             <element signature="e#29#39#0" expanded="true" />
           </folding>
@@ -1015,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ventilator_match_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48029557" vertical-offset="65" max-vertical-offset="845">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.7758621" vertical-offset="231" max-vertical-offset="871">
+          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
           <folding>
             <element signature="e#86#138#0" expanded="true" />
           </folding>
